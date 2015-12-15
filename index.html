@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="scclntApp">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Succulent</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-  <script src="js/app.js"></script>
-</head>
-<body class="container" ng-controller="MainController as vm">
-  <h1>{{vm.title}}</h1>
 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+</head>
+<body ng-app="succulentApp">
+
+  <div ng-controller="MainController as vm">
+
+    <div class="top-container">
+      <a ui-sref-active="active" class="btn btn-info" ui-sref="about">About</a>
+      <a ui-sref-active="active" class="btn btn-warning" ui-sref="succulents">What succulent am I?</a>
+    </div>
+
+  <div ui-view></div>
+
+  </div>
+
+  <script src="/js/app.module.js"></script>
+  <script src="/js/succulents/succulents.dataservice.js"></script>
+  <script src="/js/succulents/succulents.controller.js"></script>
 </body>
 </html>
