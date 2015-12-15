@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Succulent</title>
 
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/main.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
@@ -15,12 +15,44 @@
 
   <div ng-controller="MainController as vm">
 
-    <div class="top-container">
-      <a ui-sref-active="active" class="btn btn-info" ui-sref="about">About</a>
-      <a ui-sref-active="active" class="btn btn-warning" ui-sref="succulents">What succulent am I?</a>
-    </div>
-
-  <div ui-view></div>
+  <ul class="photo-grid">
+    <li>
+      <figure>
+        <img src="images/sedum_morganianum.jpg" alt="Sedum">
+        <figcaption><p>Sedum Morganianum</p></figcaption>
+      </figure>
+    </li>
+    <li>
+      <figure>
+        <img src="images/aeonium_arboreum.jpg" alt="Purple Aeonium">
+        <figcaption><p>Aeonium Arboreum Atropurpureum</p></figcaption>
+      </figure>
+    </li>
+    <li>
+      <figure>
+        <img src="images/echeveria_agavoides.jpg" alt="Echeveria">
+        <figcaption><p>Echeveria Agavoides</p></figcaption>
+      </figure>
+    </li>
+    <li>
+      <figure>
+        <img src="images/dudleya_gnoma.jpg" alt="Dudleya">
+        <figcaption><p>Dudleya Gnoma</p></figcaption>
+      </figure>
+    </li>
+    <li>
+      <figure>
+        <img src="images/aeonium_haworthii.jpg" alt="Haworthii">
+        <figcaption><p>Aeonium Haworthii</p></figcaption>
+      </figure>
+    </li>
+    <li>
+      <figure>
+        <img src="images/kalanchoe_luciae.jpg" alt="Kalanchoe">
+        <figcaption><p>Kalanchoe Luciae</p></figcaption>
+      </figure>
+    </li>
+  </ul>
 
   </div>
 
