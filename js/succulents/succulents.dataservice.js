@@ -15,16 +15,16 @@
             image: "images/agave_americana.jpg",
           },
           {
-            species: 'Sedum Burrito',
-            image: "images/sedum_burrito_jpg",
+            species: 'Kalanchoe Luciae',
+            image: "images/kalanchoe_luciae.jpg",
           },
           {
             species: 'Aeonium Arboreum Atropurpureum',
-            image: "images/aeonium_arboreum_atropurpureum.jpg",
+            image: "images/aeonium_arboreum.jpg",
           },
           {
-            species: 'Echeveria Multicaulis',
-            image: "images/echeveria_multicaulis.jpg",
+            species: 'Echeveria Affinis',
+            image: "images/echeveria_affinis.jpg",
           }
         ],
 

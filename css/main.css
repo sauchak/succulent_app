@@ -1,16 +1,21 @@
 body {
+  background-color: honeydew;
+  text-align: center;
+}
+
+.container {
+  padding: 30px 0px 0px 50px;
 
 }
 
-
 .photo-grid {
   margin: 1em auto;
-  max-width: 2000px;
+  max-width: 1200px;
   text-align: center;
 }
 
 .photo-grid li {
-  border: 5px solid white;
+  border: 5px solid honeydew;
   display: inline-block;
   margin: 1em;
   width: 289px;

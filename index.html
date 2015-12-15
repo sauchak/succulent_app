@@ -15,49 +15,57 @@
 
   <div ng-controller="MainController as vm">
 
+  <div class="container">
+    <a ui-sref-active="active" class="btn btn-info" ui-sref="about">About</a>
+    <a ui-sref-active="active" class="btn btn-info" ui-sref="succulents">Succulents</a>
+
+  </div>
+
+  <div ui-view></div>
+
   <ul class="photo-grid">
     <li>
-      <figure>
-        <img src="images/sedum_morganianum.jpg" alt="Sedum">
-        <figcaption><p>Sedum Morganianum</p></figcaption>
-      </figure>
+        <figure>
+          <img src="images/sedum_morganianum.jpg" height="180" width="320" alt="Sedum">
+          <figcaption><p>Sedum Morganianum</p></figcaption>
+        </figure>
     </li>
     <li>
-      <figure>
-        <img src="images/aeonium_arboreum.jpg" alt="Purple Aeonium">
-        <figcaption><p>Aeonium Arboreum Atropurpureum</p></figcaption>
-      </figure>
+        <figure>
+          <img src="images/aeonium_arboreum.jpg" height="180" width="320" alt="Purple Aeonium">
+          <figcaption><p>Aeonium Arboreum Atropurpureum</p></figcaption>
+        </figure>
     </li>
     <li>
-      <figure>
-        <img src="images/echeveria_agavoides.jpg" alt="Echeveria">
-        <figcaption><p>Echeveria Agavoides</p></figcaption>
-      </figure>
+        <figure>
+          <img src="images/echeveria_agavoides.jpg" height="180" width="320" alt="Echeveria">
+          <figcaption><p>Echeveria Agavoides</p></figcaption>
+        </figure>
     </li>
     <li>
-      <figure>
-        <img src="images/dudleya_gnoma.jpg" alt="Dudleya">
-        <figcaption><p>Dudleya Gnoma</p></figcaption>
-      </figure>
+        <figure>
+          <img src="images/dudleya_gnoma.jpg" height="180" width="320" alt="Dudleya">
+          <figcaption><p>Dudleya Gnoma</p></figcaption>
+        </figure>
     </li>
     <li>
-      <figure>
-        <img src="images/aeonium_haworthii.jpg" alt="Haworthii">
-        <figcaption><p>Aeonium Haworthii</p></figcaption>
-      </figure>
+        <figure>
+          <img src="images/aeonium_haworthii.jpg" height="180" width="320" alt="Haworthii">
+          <figcaption><p>Aeonium Haworthii</p></figcaption>
+        </figure>
     </li>
     <li>
-      <figure>
-        <img src="images/kalanchoe_luciae.jpg" alt="Kalanchoe">
-        <figcaption><p>Kalanchoe Luciae</p></figcaption>
-      </figure>
+        <figure>
+          <img src="images/kalanchoe_luciae.jpg" height="180" width="320" alt="Kalanchoe">
+          <figcaption><p>Kalanchoe Luciae</p></figcaption>
+        </figure>
     </li>
   </ul>
 
   </div>
 
-  <script src="/js/app.module.js"></script>
-  <script src="/js/succulents/succulents.dataservice.js"></script>
-  <script src="/js/succulents/succulents.controller.js"></script>
+  <script type="text/javascript" src="/js/app.module.js"></script>
+  <script type="text/javascript" src="/js/succulents/succulents.dataservice.js"></script>
+  <script type="text/javascript" src="/js/succulents/succulents.controller.js"></script>
 </body>
 </html>
