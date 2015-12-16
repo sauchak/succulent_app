@@ -1,19 +1,19 @@
 (function(){
-  "use strict";
+  'use strict';
 
   angular
-    .module("succulentApp", ['ui.router'])
+    .module('succulentApp', ['ui.router'])
     .config(router);
 
 function router ($stateProvider) {
   $stateProvider
     .state('about', {
-      url: 'templates/about',
-      templateUrl: 'about.html'
+      url: '/about',
+      templateUrl: '../templates/about.html'
     })
     .state('succulents', {
-      url: 'templates/succulents',
-      templateUrl: 'succulents.html'
+      url: '/succulents',
+      templateUrl: '../templates/succulents.html'
     })
 
 };
