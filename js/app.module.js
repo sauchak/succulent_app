@@ -16,7 +16,7 @@
       .state('succulent', {
         url: '/succulent/:id',
         templateUrl: '../templates/succulent.html',
-        controller: function($scope, $stateParams) {
+        controller: function($scope, $stateParams, $rootScope) {
           $rootScope.succulentId = $stateParams.id;
         }
       })
