@@ -13,6 +13,10 @@
         url: '/about',
         templateUrl: '../templates/about.html'
       })
+      .state('home', {
+        url: '/home',
+        templateUrl: '../templates/home.html'
+      })
       .state('succulent', {
         url: '/succulent/:id',
         templateUrl: '../templates/succulent.html',

@@ -38,7 +38,21 @@
           id: 6,
           imageUrl: "images/kalanchoe_luciae.jpg"
         },
-
+        {
+          name: "Crassula Perforata",
+          id: 7,
+          imageUrl: "images/crassula_perforata.jpg"
+        },
+        {
+          name: "Echeveria Affinis",
+          id: 8,
+          imageUrl: "images/echeveria_affinis.jpg"
+        },
+        {
+          name: "Graptopetalum Pentandrum",
+          id: 9,
+          imageUrl: "images/graptopetalum_pentandrum.jpg"
+        },
       ]
     }
   }

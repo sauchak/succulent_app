@@ -17,6 +17,7 @@
 
   <div class="container">
 <!--     <ul class="nav nav-tabs"> -->
+      <a ui-sref-active="active" class="btn btn-info" ui-sref="home">Home</a>
       <a ui-sref-active="active" class="btn btn-info" ui-sref="about">About</a>
 
 <!--     </ul> -->
@@ -24,14 +25,7 @@
 
   <div ui-view></div>
 
-  <ul class="photo-grid">
-    <li ng-repeat="succulent in vm.succulentsList">
-        <figure>
-          <img ng-src="{{succulent.imageUrl}}" height="180" width="320" alt="Kalanchoe">
-          <figcaption><p><a ui-sref="succulent({id: succulent.id})">{{succulent.name}}</a></p></figcaption>
-        </figure>
-    </li>
-  </ul>
+
 
   </div>
 
