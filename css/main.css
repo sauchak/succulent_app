@@ -27,8 +27,8 @@ h1 {
 }
 
 .btn {
-  color: white;
-  font-size: 20px;
+  color: whitesmoke;
+  font-size: 24px;
 }
 
 .show-container {
@@ -49,6 +49,7 @@ h1 {
   width: 50%;
   margin-top: 100px;
   padding-right: 10px;
+  padding-left: 10px;
 }
 
 .image-container {
