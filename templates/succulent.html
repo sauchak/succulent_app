@@ -2,7 +2,14 @@
   <h1>{{vm.activeSucculent.name}}</h1>
     <div class="space-container">
       <div class="text-container">
-        <p>Text about the active succulent, which I will have to add to the dataservice.</p>
+        <p>{{vm.activeSucculent.name}} is a quirky and {{vm.activeSucculent.special}} succulent.
+        <br>
+        <br>
+        Its {{vm.activeSucculent.quirk}} makes it beloved by master gardeners and prized
+        by amateurs. {{vm.activeSucculent.name}} loves to be placed in a mix of potting soil
+        and gritty sand inside a clay pot with drainage and watered about every few weeks.
+        When {{vm.activeSucculent.name}} gains sentience it will {{vm.activeSucculent.alive}}.
+        </p>
       </div>
     </div>
     <div class="space-container">

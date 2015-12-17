@@ -42,7 +42,8 @@ h1 {
 .text-container {
   float: left;
   width: 50%;
-  margin-top: 150px;
+  margin-top: 100px;
+  padding-right: 10px;
 }
 
 .image-container {
@@ -52,6 +53,11 @@ h1 {
 
 p {
   font-size: 24px;
+}
+
+#about {
+ margin: 20px 55px 0px 55px;
+ padding: 0px 25px 0px 25px;
 }
 
 .photo-grid {
