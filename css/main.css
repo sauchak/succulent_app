@@ -1,21 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Lateef);
+
 body {
   background-color: honeydew;
   text-align: center;
   padding-top: 70px;
+  font-family: 'Lateef', cursive;
+  color: midnightblue;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 .navbar {
   background-color: paleturquoise;
-  max-height: 2em;
 }
 
 .nav-container {
-  padding: 5px 0px 5px;
-
+  padding: 5px 5px;
+  margin: 10px;
 }
-.container {
-  padding-top: 30px;
 
+.btn {
+  color: white;
+  font-size: 20px;
+}
+
+.show-container {
+  width: 98%;
+}
+
+.space-container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  padding: 1em;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.text-container {
+  float: left;
+  width: 50%;
+  margin-top: 150px;
+}
+
+.image-container {
+  float: left;
+  width: 50%;
+}
+
+p {
+  font-size: 24px;
 }
 
 .photo-grid {
@@ -80,7 +116,7 @@ body {
 
 .photo-grid figcaption p {
   display: table-cell;
-  font-size: 1.5em;
+  font-size: 2.5em;
   position: relative;
   top: -40px;
   width: 289px;
