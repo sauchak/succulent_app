@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Succulent</title>
-
+  <link rel="icon" href="/images/favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/main.css">
 
@@ -15,14 +15,17 @@
 
   <div ng-controller="SucculentsController as vm">
 
-    <div class="container">
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="nav-container">
-          <a ui-sref-active="active" class="btn btn-info" ui-sref="home">Home</a>
-          <a ui-sref-active="active" class="btn btn-info" ui-sref="about">About</a>
-        </div>
-      </nav>
-    </div>
+
+      <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="nav-container">
+            <a ui-sref-active="active" class="btn btn-info" ui-sref="home">Home</a>
+            <a ui-sref-active="active" class="btn btn-info" ui-sref="about">About</a>
+          </div>
+        </nav>
+      </div>
+
+
 
 
     <div ui-view></div>

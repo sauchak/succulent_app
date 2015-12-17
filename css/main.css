@@ -10,15 +10,20 @@ body {
 
 h1 {
   font-size: 48px;
+  text-align: center;
 }
 
 .navbar {
-  background-color: paleturquoise;
+  background-image: url(../images/echeveria_secunda.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .nav-container {
   padding: 5px 5px;
   margin: 10px;
+  text-align: left;
 }
 
 .btn {
