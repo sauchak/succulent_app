@@ -61,8 +61,8 @@
           id: 7,
           imageUrl: "images/crassula_perforata.jpg",
           quirk: "flower-like benevolence",
-          alive: "",
-          special: ""
+          alive: "fill the void in your heart",
+          special: "optimistic"
         },
         {
           name: "Echeveria Affinis",
