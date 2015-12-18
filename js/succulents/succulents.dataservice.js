@@ -14,7 +14,8 @@
           imageUrl: "images/aeonium_arboreum.jpg",
           quirk: "purplish sophistication",
           alive: "branch out into pure love",
-          special: "self-reliant"
+          special: "self-reliant",
+          sign: "fire"
         },
         {
           name: "Echeveria Agavoides",
@@ -22,7 +23,8 @@
           imageUrl: "images/echeveria_agavoides.jpg",
           quirk: "rose-like symmetry",
           alive: "blossom into kindness",
-          special: "suspiciously hard-nosed"
+          special: "suspiciously hard-nosed",
+          sign: "forest"
         },
         {
           name: "Dudleya Gnoma",
@@ -30,7 +32,8 @@
           imageUrl: "images/dudleya_gnoma.jpg",
           quirk: "height",
           alive: "join the tree people",
-          special: "self-sustaining"
+          special: "self-sustaining",
+          sign: "forest"
         },
         {
           name: "Sedum Morganianum",
@@ -38,7 +41,8 @@
           imageUrl: "images/sedum_morganianum.jpg",
           quirk: "baby-toes and/or burrito-like structure",
           alive: "try and be your friend",
-          special: "buoyant"
+          special: "buoyant",
+          sign: "water"
         },
         {
           name: "Aeonium Haworthii",
@@ -46,7 +50,8 @@
           imageUrl: "images/aeonium_haworthii.jpg",
           quirk: "kindness and childlike exuberance",
           alive: "like to become a community organizer",
-          special: "assured"
+          special: "assured",
+          sign: "fire"
         },
          {
           name: "Kalanchoe Luciae",
@@ -54,7 +59,8 @@
           imageUrl: "images/kalanchoe_luciae.jpg",
           quirk: "arms-to-the-sky whimsy",
           alive: "prove its worth",
-          special: "risk-averse"
+          special: "risk-averse",
+          sign: "sky"
         },
         {
           name: "Crassula Perforata",
@@ -62,7 +68,8 @@
           imageUrl: "images/crassula_perforata.jpg",
           quirk: "flower-like benevolence",
           alive: "fill the void in your heart",
-          special: "optimistic"
+          special: "optimistic",
+          sign: "fire"
         },
         {
           name: "Echeveria Affinis",
@@ -70,7 +77,8 @@
           imageUrl: "images/echeveria_affinis.jpg",
           quirk: "celestial qualities",
           alive: "find peace on the astral plane",
-          special: "sanguine"
+          special: "sanguine",
+          sign: "sky"
         },
         {
           name: "Graptopetalum Pentandrum",
@@ -78,7 +86,35 @@
           imageUrl: "images/graptopetalum_pentandrum.jpg",
           quirk: "affinity for grapes and the English folk band Pentangle",
           alive: "sound the trumpet of a new rhythm nation",
-          special: "enthusiastic"
+          special: "enthusiastic",
+          sign: "sky"
+        },
+        {
+          name: "Aloe Arborescens",
+          id: 10,
+          imageUrl: "images/aloe_arborescens.jpg",
+          quirk: "loves the color red, but doesn't want you to know that",
+          alive: "enjoy the outdoors more than it already does",
+          special: "dangerously optimistic",
+          sign: "forest"
+        },
+        {
+          name: "Faucaria Tigrina",
+          id: 11,
+          imageUrl: "images/faucaria_tigrina.jpg",
+          quirk: "tiger-like jaws",
+          alive: "embark on a trek to find the true Fertile Crescent",
+          special: "hopeful",
+          sign: "water"
+        },
+        {
+          name: "Sedum Nussbaumerianum",
+          id: 12,
+          imageUrl: "images/sedum_nussbaumerianum.jpg",
+          quirk: "growth investments in the financial sector",
+          alive: "stay conservative, yet regret nothing",
+          special: "fickle",
+          sign: "water"
         },
       ]
     }

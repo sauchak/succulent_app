@@ -27,7 +27,14 @@ h1 {
 
 .btn {
   color: whitesmoke;
-  font-size: 24px;
+  font-size: 22px;
+  margin: 0 6px;
+}
+
+input {
+  padding: 3px;
+  font-size: 18px;
+  margin-left: 9px
 }
 
 .show-container {
