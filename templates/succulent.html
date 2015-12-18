@@ -1,7 +1,7 @@
-<section class="show-container">
+<section class="show-container container-fluid">
   <h1>{{vm.activeSucculent.name}}</h1>
-    <div class="space-container">
-      <div class="text-container">
+    <div class="row">
+      <div class="text-container col-md-6">
         <p>{{vm.activeSucculent.name}} is a quirky and {{vm.activeSucculent.special}} succulent.
         <br>
         <br>
@@ -14,10 +14,10 @@
         Please purchase one <a href="http://www.sunsetblvdnursery.com/">here</a>.
         </p>
       </div>
-    </div>
-    <div class="space-container">
-      <div class="image-container">
-        <img src="{{vm.activeSucculent.imageUrl}}">
+      <div class="image-container col-md-6">
+        <div class="inner">
+          <img src="{{vm.activeSucculent.imageUrl}}">
+        </div>
       </div>
     </div>
 </section>

@@ -50,18 +50,34 @@ input {
   transform: translate(-50%, -50%);
 }
 
+@media (min-width: 992px) {
+  .text-container {
+    margin-top: 75px;
+  }
+
+  .image-container {
+    overflow: hidden;
+  }
+
+  .image-container .inner {
+      display: inline-block;
+      position: relative;
+      right: -50%;
+  }
+
+  .image-container img {
+      position: relative;
+      left: -50%;
+  }
+}
+
+.image-container,
 .text-container {
-  float: left;
-  width: 50%;
-  margin-top: 100px;
   padding-right: 10px;
   padding-left: 10px;
 }
 
-.image-container {
-  float: left;
-  width: 50%;
-}
+
 
 p {
   font-size: 24px;
