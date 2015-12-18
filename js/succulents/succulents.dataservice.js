@@ -93,7 +93,7 @@
           name: "Aloe Arborescens",
           id: 10,
           imageUrl: "images/aloe_arborescens.jpg",
-          quirk: "loves the color red, but doesn't want you to know that",
+          quirk: "use of the color red as a thematic element",
           alive: "enjoy the outdoors more than it already does",
           special: "dangerously optimistic",
           sign: "forest"
