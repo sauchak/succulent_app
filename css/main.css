@@ -106,7 +106,7 @@ p {
 /* Fade in the caption */
 
 .photo-grid figcaption {
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.7);
   color: white;
   display: table;
   height: 100%;
@@ -122,6 +122,14 @@ p {
   -moz-transition-delay: 100ms;
   transition-delay: 100ms;
   z-index: 100;
+}
+
+.photo-grid figcaption a:link,
+.photo-grid figcaption a:visited,
+.photo-grid figcaption a:hover,
+.photo-grid figcaption a:active {
+  color: darkturquoise;
+  text-decoration: none;
 }
 
 /* Drop in effect on hover */
