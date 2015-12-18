@@ -26,7 +26,7 @@
       })
 
 
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/home');
 
   };
 
