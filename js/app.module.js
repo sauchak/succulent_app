@@ -11,15 +11,15 @@
     $stateProvider
       .state('about', {
         url: '/about',
-        templateUrl: '../templates/about.html'
+        templateUrl: 'templates/about.html'
       })
       .state('home', {
         url: '/home',
-        templateUrl: '../templates/home.html'
+        templateUrl: 'templates/home.html'
       })
       .state('succulent', {
         url: '/succulent/:id',
-        templateUrl: '../templates/succulent.html',
+        templateUrl: 'templates/succulent.html',
         controller: function($scope, $stateParams, $rootScope) {
           $rootScope.succulentId = $stateParams.id;
         }
