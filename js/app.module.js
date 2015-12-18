@@ -25,6 +25,7 @@
         }
       })
 
+
     $urlRouterProvider.otherwise('/home');
 
   };
