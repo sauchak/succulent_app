@@ -14,9 +14,10 @@
 
     vm.succulentsList = succulentDataService.succulentsList
 
+    vm.search = '';
+
     $rootScope.$watch("succulentId", function (succulentId) {
       var matchingSucculent = $filter('filter')(vm.succulentsList, {id: parseInt(succulentId)}, true)
-      console.log(succulentId)
       vm.activeSucculent = matchingSucculent[0]
     })
 

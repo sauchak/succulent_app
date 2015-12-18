@@ -1,7 +1,7 @@
 <ul class="photo-grid">
-  <li ng-repeat="succulent in vm.succulentsList">
+  <li ng-repeat="succulent in vm.succulentsList | filter:vm.category">
       <figure>
-        <img ng-src="{{succulent.imageUrl}}" height="180" width="320" alt="Kalanchoe">
+        <img ng-src="{{succulent.imageUrl}}" height="180" width="320" alt="{{ succulent.name }}">
         <figcaption><p><a ui-sref="succulent({id: succulent.id})">{{succulent.name}}</a></p></figcaption>
       </figure>
   </li>
