@@ -4,6 +4,8 @@ Imagine you are an anthropomorphic succulent plant. And you have a computer. How
 
 [Click](http://sauchak.github.io/succulent_app/) to reach the site.
 
+<img src="https://i.imgur.com/lMVJQ7q.png" width="600px">
+
 ___
 
 ### Technologies Used
