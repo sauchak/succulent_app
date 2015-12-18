@@ -2,7 +2,7 @@
 
 Imagine you are an anthropomorphic succulent plant. And you have a computer. How do learn about yourself? Where do you go? What do you do? This is for Succulents is an app made for succulents who have gained sentience. 
 
-Click [here](http://sauchak.github.io/succulent_app/) to reach the site.
+[Click](http://sauchak.github.io/succulent_app/) to reach the site.
 
 ___
 
