@@ -16,9 +16,6 @@ HTML |
 CSS |
 Bootstrap |
 Angular |
-Node |
-Express |
-MongoDB |
 Git |
 GitHub |
 
