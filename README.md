@@ -33,7 +33,6 @@ ___
 
 - Access to a good plant api is difficult so there is no api currently.
 - The behemoth that is jwts is overwhelming so there is no auth capabilities currently.
-- Allow access to users.
 - Create an actual database.
 - Creating this site with angular was, perhaps, not the best use of angular, but I want to play around with ng-directives and services in the few days given for this project and this is what I settled on after running through several other ideas.
 
