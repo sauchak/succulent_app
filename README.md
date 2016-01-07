@@ -25,7 +25,7 @@ ___
 
 <img src="https://i.imgur.com/NHf3N6q.png" width="250px"/>
 
-Inspiration for this came to me when my succulents bloomed and it destroyed my mind. So I decided on a narrative of an anthrompomorphic succulent plant confused about its existence and its purpose. This is for Succulents exists to help out those succulents who ask these questions. 
+Inspiration for this came to me when my succulents bloomed and it destroyed my mind. So I decided on a narrative of an anthropomorphic succulent plant confused about its existence and its purpose. This is for Succulents exists to help out those succulents who ask these questions. 
 
 ___
 
