@@ -1,6 +1,6 @@
 # This is for Succulents
 
-Imagine you are an anthropomorphic succulent plant. And you have a computer. How do learn about yourself? Where do you go? What do you do? This is for Succulents is an app made for succulents who have gained sentience. 
+Imagine you are an anthropomorphic succulent plant. And you have a computer. How do you learn about yourself? Where do you go? What do you do? This is for Succulents is an app made for succulents who have gained sentience. 
 
 [Click](http://sauchak.github.io/succulent_app/) to reach the site.
 
@@ -34,5 +34,5 @@ ___
 - Access to a good plant api is difficult so there is no api currently.
 - The behemoth that is jwts is overwhelming so there is no auth capabilities currently.
 - Create an actual database.
-- Creating this site with angular was, perhaps, not the best use of angular, but I want to play around with ng-directives and services in the few days given for this project and this is what I settled on after running through several other ideas.
+- Creating this site with angular was, perhaps, not the best use of angular, but I wanted to play around with ng-directives and services in the few days given for this project and this is what I settled on after running through several other ideas.
 
